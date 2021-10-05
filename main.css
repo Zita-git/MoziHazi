@@ -9,24 +9,34 @@ h3{
 button{
     width: 100%;
     font-weight:bold;
-    border-radius:50px;
 }
 .jumbotron {
     background-color:  rgb(209, 185, 58) !important; 
     border-bottom: #C0C0C0 solid;
     color: rgb(46, 42, 24);
+} 
+input{
+    background-color:  rgb(253, 235, 143);
+    border: #C0C0C0 solid;
+
 }
 table{
     margin-top: 1em;
 }
+table td{
+    color: black;
+}
+table th{
+    background-color: rgb(253, 235, 143);
+}
 .ujFilm {
-    background-color:silver;
+    background-color: whitesmoke;
 }
 .container{
     background-color: white;
 }
 .listazas{
-    background-color: whitesmoke;
+    background-color:silver;
 }
 .listazas div{
     margin-top: 1em;

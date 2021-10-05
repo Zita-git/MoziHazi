@@ -23,10 +23,12 @@ function hozzaad(){
     document.getElementById('nev').value="";
     document.getElementById('rendezo').value="";
     document.getElementById('kiadasiEv').value="";
-}
 
-function listazas(){
-    let tablazat = "<table class='table table-bordered'><tr><th>Név</th><th>Rendező</th><th>Kiadási év</th></tr>";
+
+
+
+
+    let tablazat = "<table class='table table-warning'><tr><th>Név</th><th>Rendező</th><th>Kiadási év</th></tr>";
     
     for (let i = 0; i < adatok.length; i++) {
         
@@ -38,5 +40,7 @@ function listazas(){
     document.getElementById('listazzaKi').innerHTML = tablazat;
 }
 
+function listazas(){
+}
+
 document.getElementById('hozzaad').addEventListener('click',hozzaad);
-document.getElementById('listazas').addEventListener('click',listazas);
