@@ -7,5 +7,6 @@ class Film{
         this.kiadasiEv=kiadasiEv;
 
     }
-    
+
 }
+let{adatok}=[];
