@@ -26,11 +26,11 @@ function hozzaad(){
 }
 
 function listazas(){
-    let tablazat = "<table><tr><th>Sorszám</th><th>Név</th><th>Rendező</th><th>Kiadási év</th></tr>";
+    let tablazat = "<table class='table table-bordered'><tr><th>Név</th><th>Rendező</th><th>Kiadási év</th></tr>";
     
     for (let i = 0; i < adatok.length; i++) {
-        let j =i+1;
-        tablazat += "<tr><td>"+j+". </td><td>" + adatok[i].nev + "</td><td>" + adatok[i].rendezo + "</td><td>" + adatok[i].kiadasiEv + "</td></tr>";
+        
+        tablazat += "<tr><td>" + adatok[i].nev + "</td><td>" + adatok[i].rendezo + "</td><td>" + adatok[i].kiadasiEv + "</td></tr>";
     }
 
     tablazat += "</table>";

@@ -5,40 +5,58 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Mozi</title>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </head>
 <body>
-        <div class="ujFilm">
+
+    <div class="jumbotron jumbotron-fluid">
             <h3>Új film megadása</h3>
+        </div>
+    <div class="container-fluid">
+        
+
+        <div class="container">
             <div class="row">
-                <p class="col-4 ">Film címét:</p>
-                <div class="col-8"><input type="text" id="nev"> </div>
-            </div>
-            <div class="row">
-                <p class="col-4 ">Rendezőnek a neve:</p>
-                <div class="col-8"><input type="text" id="rendezo"> </div>
-            </div>
-            <div class="row">
-                <p class="col-4 ">Kiadási éve:</p>
-                <div class="col-8"><input type="number" id="kiadasiEv"> </div>
-            </div>
-            <div class="row">
-                <div>
-                    <button id="hozzaad" >Hozzáad</button>
+                <div class="ujFilm col-md-7 col-sm-12">
+                    
+                    <div class="row">
+                        <p class="col-5 ">Film címét:</p>
+                        <div class="col-7"><input type="text" id="nev"> </div>
+                    </div>
+                    <div class="row">
+                        <p class="col-5 ">Rendezőnek a neve:</p>
+                        <div class="col-7"><input type="text" id="rendezo"> </div>
+                    </div>
+                    <div class="row">
+                        <p class="col-5 ">Kiadási éve:</p>
+                        <div class="col-7"><input type="number" id="kiadasiEv"> </div>
+                    </div>
+                    
                 </div>
-            </div>  
             
-        </div>
-      
 
-        <div class="listazas">
-            <div>
-                <div class="row">
-                    <div><button id="listazas" >Listázás</button></div>
+                <div class="listazas col-md-5 col-sm-12">
+                    <div>
+                        <div class="row">
+                            <div class="col-6">
+                                <button class="btn btn-outline-secondary" id="hozzaad" >Hozzáad</button>
+                            </div>
+                            <div class="col-6">
+                                <button class="btn btn-outline-warning" id="listazas" >Listázás</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table table-striped" id="listazzaKi"></div>
                 </div>
             </div>
-            <div id="listazzaKi"></div>
         </div>
-
+    </div>
     <script src='main.js'></script>
 </body>
 </html>

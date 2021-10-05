@@ -1,4 +1,35 @@
 
 .ujFilm div{
+    margin-top: 1em;
     margin-bottom: 1em;
+}
+h3{
+    text-align: center;
+}
+button{
+    width: 100%;
+    font-weight:bold;
+    border-radius:50px;
+}
+.jumbotron {
+    background-color:  rgb(209, 185, 58) !important; 
+    border-bottom: #C0C0C0 solid;
+    color: rgb(46, 42, 24);
+}
+table{
+    margin-top: 1em;
+}
+.ujFilm {
+    background-color:silver;
+}
+.container{
+    background-color: white;
+}
+.listazas{
+    background-color: whitesmoke;
+}
+.listazas div{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
 }
