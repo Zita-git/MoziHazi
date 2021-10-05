@@ -8,6 +8,7 @@ class Film{
 
     }
 }
+
 let adatok=[];
 
 function hozzaad(){
@@ -22,8 +23,6 @@ function hozzaad(){
     document.getElementById('nev').value="";
     document.getElementById('rendezo').value="";
     document.getElementById('kiadasiEv').value="";
-
-    
 }
 
 function listazas(){
@@ -38,9 +37,6 @@ function listazas(){
 
     document.getElementById('listazzaKi').innerHTML = tablazat;
 }
-
-
-
 
 document.getElementById('hozzaad').addEventListener('click',hozzaad);
 document.getElementById('listazas').addEventListener('click',listazas);
