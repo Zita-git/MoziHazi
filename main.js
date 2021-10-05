@@ -19,10 +19,11 @@ function hozzaad(){
 
     adatok.push(egyFilmAdat);
 
-    document.getElementById('nev').innerHTML="";
-    document.getElementById('rendezo').innerHTML="";
-    document.getElementById('kiadasiEv').innerHTML="";
+    document.getElementById('nev').value="";
+    document.getElementById('rendezo').value="";
+    document.getElementById('kiadasiEv').value="";
 
 }
 
 document.getElementById('hozzaad').addEventListener('click',hozzaad);
+document.getElementById('listazas').addEventListener('click',listazas);
